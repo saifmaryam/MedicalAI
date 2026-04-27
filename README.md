@@ -2,7 +2,6 @@
 title: MediAI - Medical Symptom Analyzer
 emoji: 🏥
 colorFrom: blue
-colorTo: cyan
 sdk: streamlit
 sdk_version: 1.32.0
 app_file: app.py
