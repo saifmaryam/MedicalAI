@@ -19,12 +19,12 @@ short_description: Advanced AI-powered medical symptom analyzer using HuggingFac
 ## 🚀 Features
 
 - **🧬 Biomedical NER** — Extracts symptoms, diseases, and anatomical entities using `d4data/biomedical-ner-all`
-- **🎯 Zero-Shot Classification** — Maps symptoms to 22+ medical conditions using `facebook/bart-large-mnli`
+- **🎯 Zero-Shot Classification** — Maps symptoms to 18+ medical conditions using `facebook/bart-large-mnli`
 - **⚡ Severity Analysis** — Detects urgency levels using `distilbert-base-uncased-finetuned-sst-2-english`
 - **📊 Interactive Charts** — Plotly confidence bars & radar charts
 - **💬 AI Chat Interface** — Conversational symptom discussion
 - **📈 Analysis History** — Track all your analyses with analytics
-- **📚 Conditions Database** — 22+ conditions across 10 body systems
+- **📚 Conditions Database** — 18+ conditions across 10 body systems
 
 ---
 
@@ -51,7 +51,7 @@ User Input (Symptoms)
 │        anatomy, chemicals              │
 │                                         │
 │  2. Zero-Shot Classification (BART)    │
-│     └─ Map to 22+ medical conditions  │
+│     └─ Map to 18+ medical conditions  │
 │        with confidence scores          │
 │                                         │
 │  3. Severity Analysis (DistilBERT)     │
